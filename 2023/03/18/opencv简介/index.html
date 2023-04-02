@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>opencv简介 | NoahCV</title><meta name="author" content="John noah,2388279311@qq.com"><meta name="copyright" content="John noah"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1.计算机视觉、图像处理与OpenCV计算机视觉正在从新兴阶段发展，其结果在各种应用中非常有用。例如：在我们的手机摄像头中识别人脸；自动驾驶汽车，识别交通信号、标志和行人；在工业应用中监控问题；增强现实等。计算机视觉的主要目的是让计算机像人类一样看清世界，甚至更好。计算机视觉所需的基础支撑包含数字信号处理、神经科学、图像处理、模式识别、机器学习 (ML) 、机器人技术和人工智能 (AI)等，其通常">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>opencv简介 | NoahCV</title><meta name="author" content="John noah,2388279311@qq.com"><meta name="copyright" content="John noah"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="计算机视觉指的是通过分析输入图像或图像序列，生成对被成像物体或场景的描述，用于完成具体的任务，如边缘提取、图像恢复、三维重建、特征匹配、运动估计、目标检测等。OpenCV（Open Source Computer Vision）是计算机视觉领域最重要的开源函数库，其中不仅包括了众多图像处理和视频分析算法，还包含了经典机器学习算法和深度学习算法库。这些机器学习算法在计算机视觉的图像分类、目标检测、目">
 <meta property="og:type" content="article">
 <meta property="og:title" content="opencv简介">
 <meta property="og:url" content="https://noahcv.top/2023/03/18/opencv%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="NoahCV">
-<meta property="og:description" content="1.计算机视觉、图像处理与OpenCV计算机视觉正在从新兴阶段发展，其结果在各种应用中非常有用。例如：在我们的手机摄像头中识别人脸；自动驾驶汽车，识别交通信号、标志和行人；在工业应用中监控问题；增强现实等。计算机视觉的主要目的是让计算机像人类一样看清世界，甚至更好。计算机视觉所需的基础支撑包含数字信号处理、神经科学、图像处理、模式识别、机器学习 (ML) 、机器人技术和人工智能 (AI)等，其通常">
+<meta property="og:description" content="计算机视觉指的是通过分析输入图像或图像序列，生成对被成像物体或场景的描述，用于完成具体的任务，如边缘提取、图像恢复、三维重建、特征匹配、运动估计、目标检测等。OpenCV（Open Source Computer Vision）是计算机视觉领域最重要的开源函数库，其中不仅包括了众多图像处理和视频分析算法，还包含了经典机器学习算法和深度学习算法库。这些机器学习算法在计算机视觉的图像分类、目标检测、目">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://noahcv.top/img/noahcvavatar.png">
 <meta property="article:published_time" content="2023-03-18T10:00:11.000Z">
-<meta property="article:modified_time" content="2023-04-02T03:24:20.102Z">
+<meta property="article:modified_time" content="2023-04-02T03:39:14.925Z">
 <meta property="article:author" content="John noah">
 <meta property="article:tag" content="opencv">
 <meta name="twitter:card" content="summary">
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-04-02 11:24:20'
+  postUpdate: '2023-04-02 11:39:14'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -161,7 +161,8 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/noahcvavatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="NoahCV"><img class="site-icon" src="/img/noahcvnav.png"/></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">opencv简介</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-18T10:00:11.000Z" title="发表于 2023-03-18 18:00:11">2023-03-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-02T03:24:20.102Z" title="更新于 2023-04-02 11:24:20">2023-04-02</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/">数字图像处理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>21分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="opencv简介"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h2 id="1-计算机视觉、图像处理与OpenCV"><a href="#1-计算机视觉、图像处理与OpenCV" class="headerlink" title="1.计算机视觉、图像处理与OpenCV"></a>1.计算机视觉、图像处理与OpenCV</h2><p><strong>计算机视觉</strong>正在从新兴阶段发展，其结果在各种应用中非常有用。例如：在我们的手机摄像头中识别人脸；自动驾驶汽车，识别交通信号、标志和行人；在工业应用中监控问题；增强现实等。计算机视觉的主要目的是让计算机像人类一样看清世界，甚至更好。计算机视觉所需的基础支撑包含数字信号处理、神经科学、图像处理、模式识别、机器学习 (ML) 、机器人技术和人工智能 (AI)等，其通常使用 C++、Python 和 MATLAB 等编程语言。<br>计算机视觉与以下领域有很大重叠:</p>
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/noahcvavatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="NoahCV"><img class="site-icon" src="/img/noahcvnav.png"/></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">opencv简介</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-18T10:00:11.000Z" title="发表于 2023-03-18 18:00:11">2023-03-18</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-02T03:39:14.925Z" title="更新于 2023-04-02 11:39:14">2023-04-02</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/">数字图像处理</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>23分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="opencv简介"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>计算机视觉指的是通过分析输入图像或图像序列，生成对被成像物体或场景的描述，用于完成具体的任务，如边缘提取、图像恢复、三维重建、特征匹配、运动估计、目标检测等。OpenCV（Open Source Computer Vision）是计算机视觉领域最重要的开源函数库，其中不仅包括了众多图像处理和视频分析算法，还包含了经典机器学习算法和深度学习算法库。这些机器学习算法在计算机视觉的图像分类、目标检测、目标跟踪和光学字符检测识别等任务中扮演了关键角色。此外，深度机器学习算法库是OpenCV的重要组成部分，因此，OpenCV的机器学习与深度学习模块在机器学习理论与编程实战之间架设了一座桥梁。</p>
+<h2 id="1-计算机视觉、图像处理与OpenCV"><a href="#1-计算机视觉、图像处理与OpenCV" class="headerlink" title="1.计算机视觉、图像处理与OpenCV"></a>1.计算机视觉、图像处理与OpenCV</h2><p><strong>计算机视觉</strong>正在从新兴阶段发展，其结果在各种应用中非常有用。例如：在我们的手机摄像头中识别人脸；自动驾驶汽车，识别交通信号、标志和行人；在工业应用中监控问题；增强现实等。计算机视觉的主要目的是让计算机像人类一样看清世界，甚至更好。计算机视觉所需的基础支撑包含数字信号处理、神经科学、图像处理、模式识别、机器学习 (ML) 、机器人技术和人工智能 (AI)等，其通常使用 C++、Python 和 MATLAB 等编程语言。<br>计算机视觉与以下领域有很大重叠:</p>
 <blockquote>
 <p>Image Processing - 专注于图像处理，其输入和输出都是图像。<br>Pattern Recognition - 解释了对模式进行分类的各种技术。<br>Photogrammetry - 涉及从图像中获取准确的测量值。</p>
 </blockquote>
@@ -170,30 +171,66 @@
 <p>灰度 - 像素是一个整数，其值介于 0 到 255 之间（0 是全黑，255 是全白）。<br>RGB - 一个像素由 0 到 255 之间的 3 个整数组成（整数代表红色、绿色和蓝色的强度）。<br>RGBA - 它是 RGB 的扩展，添加了 alpha 字段，表示图像的不透明度。</p>
 </blockquote>
 <p>图像处理主要有五种类型：可视化（查找图像中不可见的对象）、识别（区分或检测图像中的物体）、锐化和恢复(从原始图像创建增强图像)、模式识别（测量图像中物体周围的各种模式）和检索（从与原始图像相似的大型数字图像数据库中浏览和搜索图像）。</p>
-<p><strong>OpenCV</strong>是一个跨平台库，它主要侧重于图像处理、视频捕获和分析，包括人脸检测和物体检测等功能。使用 OpenCV 库可以读取和写入图像、捕获和保存视频、处理图像（过滤、转换）、执行特征检测、检测视频或图像中的特定对象、分析视频，即估计其中的运动、减去背景并跟踪其中的对象。其最初是用 C++ 开发的。除此之外，还提供了 Python 和 Java 包。 OpenCV 可在各种操作系统上运行，例如 Windows、Linux、OSx、FreeBSD、Net BSD、Open BSD 等。以下是 OpenCV 库的主要库模块：</p>
+<p><strong>OpenCV</strong>（Open Source Computer Vision Library）是一个开源的机器视觉和机器学习软件库，其使用C和C++编写，可以在Linux、Windows、mac OS、Android和iOS操作系统上运行。1999年，英特尔公司发起了OpenCV项目，希望通过为在该领域工作的人提供一套函数库来加快计算机视觉与人工智能的发展。它主要侧重于图像处理、视频捕获和分析，包括人脸检测和物体检测等功能。使用 OpenCV 库可以读取和写入图像、捕获和保存视频、处理图像（过滤、转换）、执行特征检测、检测视频或图像中的特定对象、分析视频，即估计其中的运动、减去背景并跟踪其中的对象。</p>
+<p>OpenCV的目标之一是提供一个简单易用的计算机视觉基础库，帮助人们快速构建复杂的计算机视觉应用程序。由于计算机视觉和机器学习结合得非常紧密，在许多机器视觉算法中都使用了机器学习算法以便完成不同的任务。例如，机器学习算法被广泛用于目标检测识别、图像分类和视觉搜索跟踪等应用中。因此，OpenCV创建了一个专门的机器学习模块（机器学习算法库），该机器学习模块包含贝叶斯分类器、K近邻（KNN）、支持向量机（SVM）、决策树、神经网络和深度学习模块等。</p>
+<p>以下是 OpenCV 库的主要库模块：</p>
 <blockquote>
-<p>核心功能<br>本模块涵盖用于构建 OpenCV 应用程序的基本数据结构，例如标量、点、范围等。除了这些，它还包括多维数组Mat，用于存储图像。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.core 的包中。</p>
+<p>核心功能</p>
+<ul>
+<li>本模块涵盖用于构建 OpenCV 应用程序的基本数据结构，例如标量、点、范围等。除了这些，它还包括多维数组Mat，用于存储图像。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.core 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>图像处理<br>该模块涵盖了各种图像处理操作，例如图像过滤、几何图像变换、颜色空间转换、直方图等。在 OpenCV 的 Java 库中，该模块包含在名为 org.opencv.imgproc 的包中。</p>
+<p>图像处理</p>
+<ul>
+<li>该模块涵盖了各种图像处理操作，例如图像过滤、几何图像变换、颜色空间转换、直方图等。在 OpenCV 的 Java 库中，该模块包含在名为 org.opencv.imgproc 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>视频<br>本模块涵盖视频分析概念，例如运动估计、背景减除和对象跟踪。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.video 的包中。</p>
+<p>视频</p>
+<ul>
+<li>本模块涵盖视频分析概念，例如运动估计、背景减除和对象跟踪。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.video 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>视频输入输出<br>本模块介绍了使用 OpenCV 库的视频捕获和视频编解码器。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.videoio 的包中。</p>
+<p>视频输入输出</p>
+<ul>
+<li>本模块介绍了使用 OpenCV 库的视频捕获和视频编解码器。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.videoio 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>calib3d<br>该模块包括有关基本多视图几何算法、单相机和立体相机校准、物体姿态估计、立体对应和 3D 重建元素的算法。在 OpenCV 的 Java 库中，该模块包含在一个名为 org.opencv.calib3d 的包中。</p>
+<p>calib3d</p>
+<ul>
+<li>该模块包括有关基本多视图几何算法、单相机和立体相机校准、物体姿态估计、立体对应和 3D 重建元素的算法。在 OpenCV 的 Java 库中，该模块包含在一个名为 org.opencv.calib3d 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>features2d<br>该模块包括特征检测和描述的概念。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.features2d 的包中。</p>
+<p>features2d</p>
+<ul>
+<li>该模块包括特征检测和描述的概念。在 OpenCV 的 Java 库中，这个模块包含在一个名为 org.opencv.features2d 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>对象检测<br>该模块包括检测对象和预定义类的实例，例如面部、眼睛、杯子、人、汽车等。在 OpenCV 的 Java 库中，该模块包含在名为 org.opencv.objdetect 的包中。</p>
+<p>对象检测</p>
+<ul>
+<li>该模块包括检测对象和预定义类的实例，例如面部、眼睛、杯子、人、汽车等。在 OpenCV 的 Java 库中，该模块包含在名为 org.opencv.objdetect 的包中。</li>
+</ul>
 </blockquote>
 <blockquote>
-<p>图形界面<br>这是一个易于使用的界面，具有简单的 UI 功能。在 OpenCV 的 Java 库中，该模块的功能包含在两个不同的包中，即 org.opencv.imgcodecs 和 org.opencv.videoio。</p>
+<p>图形界面</p>
+<ul>
+<li>这是一个易于使用的界面，具有简单的 UI 功能。在 OpenCV 的 Java 库中，该模块的功能包含在两个不同的包中，即 org.opencv.imgcodecs 和 org.opencv.videoio。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>深度神经网络（DNN）模块</p>
+<p>在OpenCV 3.4之后移入主模块，目前该模块仅被设计用于计算网络前向传播（即推理），不支持网络训练。该模块主要包括：</p>
+<ul>
+<li>创建网络层的API；</li>
+<li>常用的网络层；</li>
+<li>构建和修改网络的API；</li>
+<li>加载不同框架的序列化网络模型。</li>
+</ul>
 </blockquote>
 <h2 id="2-OpenCV-发展历史"><a href="#2-OpenCV-发展历史" class="headerlink" title="2.OpenCV 发展历史"></a>2.OpenCV 发展历史</h2><p>OpenCV 最初是英特尔的一项研究计划，旨在为 CPU 密集型应用程序提供应用接口，于1999年正式推出。<br>2006 年，发布第一个主要版本 OpenCV 1.0。</p>
 <blockquote>
